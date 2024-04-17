@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CRUD Interface</h1>
+
+    <!-- Formulário para adicionar ou editar itens -->
+    <form id="item-form">
+        <label for="item-name">Item Name:</label>
+        <input type="text" id="item-name" name="item-name">
+        <button type="submit" id="save-btn">Save</button>
+    </form>
+
+    <!-- Tabela para exibir os dados -->
+    <table id="item-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dados serão inseridos dinamicamente aqui -->
+        </tbody>
+    </table>
+
+    <!-- Scripts JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
